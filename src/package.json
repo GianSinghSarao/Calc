@@ -1,0 +1,13 @@
+{
+  "name": "calculator",
+  "version": "0.49.0",
+  "description": "A Sample FOAM Framework App Packaged Into An Electron App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
