@@ -11,7 +11,7 @@ else {
   Write-Host 'Error: ' -ForegroundColor 'Red' -NoNewLine
   Write-Host 'NPM Isn''t In The Path!! '
   Write-Host 'NPM Is Required To Get This Apps'' Dependencies '`n
-  Write-Host 'If NPM Is Installed, Maybe It Got Displaced From The Path'
+  Write-Host 'If NPM Is Installed, Maybe It Got Displaced From The Path '
   $temp = Read-Host -Prompt 'If So, Enter The Path To NPM. Or Leave It Blank To Exit'
   Write-Host ''
   if ($temp) {
@@ -22,13 +22,12 @@ else {
     Exit
   }
 }
-
 while ($a) {
   Write-Host '==> ' -ForegroundColor 'Blue' -NoNewLine
-  Write-Host 'Verifiying NPM Version => 6.0.0 '
+  Write-Host 'Verifiying NPM Version => 5.6.0 '
   $temp = & $NPM -v
-  if ($temp -like '6.0.*') {
-    Write-Host 'NPM Version Is => 6.0.0 '
+  if ($temp.Substring(0, 3)/1 -gt 5.6) {
+    Write-Host 'NPM Version Is => 5.6.0 '
     Write-Host '==> ' -ForegroundColor 'Green' -NoNewLine
     Write-Host 'Installing Dev Dependencies '
     Write-Host '[Output From NPM] ' -ForegroundColor 'Yellow'
