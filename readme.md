@@ -1,4 +1,7 @@
-# Calculator
+#This Is archived
+Google recently (January 2022) released the calculator app they made as a PWA, so this is now entirely unneccessary. It's installable at/from [https://calculator.apps.chrome/](https://calculator.apps.chrome/). Though who knows if it'll always be there, So instead of deleting this repo, I'll archive it. Just in case they take down the web app 5 or 10 years in the future. Anyway, I only made this repo because I wanted to keep using this specific calculator app after the deprecation of chrome apps. And considering that I've never updated the electron version used, It is currently very out of date. Because I cannot be bothered to maintain it, I'm archiving it.
+
+## Calculator
 ![GitHub last commit](https://img.shields.io/github/last-commit/GianSinghSarao/Calc.svg?style=flat-square)
 
 A simple electron based calculator app made with the FOAM Framework with 29 functions for basic arithmetic, algebra, trigonometry and discrete math.
